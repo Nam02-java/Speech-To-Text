@@ -10,7 +10,7 @@ Tiếng việt :
 - Trong đó văn bản sẽ được đoạn mã phân tích về độ dài
   + nếu độ dài <= 4000 kí tự , chương trình sẽ liệt vào hướng 1 ( chạy đa Driver Google ) 
   + nếu độ dài => 4001 kí tự , chương trình sẽ liệt vào hướng 2 ( chạy lần lượt Tab )
-  -> phải chia hai hướng như này bởi vì website Ttsfree.com ô chứa text chỉ có tối đa 2000 kí tự , ở hướng 1 là đa driver google theo tính toán chỉ nên mở 2 driver google cùng một lúc , bởi lẽ nếu mở một lúc >= 3 googld driver sẽ xảy ra tình trạng giật , đơ ở một số thiết bị cấu hình yếu . Còn hướng 2 phải áp dụng cho những văn bản >= 4001 kí tự , nếu áp dụng cho trường hợp <= 4000 kí tự sẽ không tối ưu được tốc độ
+  -> phải chia hai hướng như này bởi vì website Ttsfree.com ô chứa text chỉ có tối đa 2000 kí tự , ở hướng 1 là đa driver google theo tính toán chỉ nên mở 2 driver google cùng một lúc , bởi lẽ nếu mở một lúc >= 3 google driver sẽ xảy ra tình trạng giật , đơ ở một số thiết bị cấu hình yếu . Còn hướng 2 phải áp dụng cho những văn bản >= 4001 kí tự , nếu áp dụng cho trường hợp <= 4000 kí tự sẽ không tối ưu được tốc độ
 
 - Phần tên file lưu chương trình sẽ đọc toàn bộ dữ liệu ở file download ổ C và scan có trùng tên file ở params trước khi tải hay không ? đồng thời check tên file lưu User gửi đi có kí tự đặc biệt không ? nếu không bị trùng tên file và tên file không có kí tự đặc biệt sẽ hợp lệ thì sau khi file được tải xuống ở file download ổ C sẽ đổi thành tên đã gửi đi ở params trong API
 
