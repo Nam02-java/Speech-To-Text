@@ -13,6 +13,7 @@ Tiếng việt :
   -> phải chia hai hướng như này bởi vì website Ttsfree.com ô chứa text chỉ có tối đa 2000 kí tự , ở hướng 1 là đa driver google theo tính toán chỉ nên mở 2 driver google cùng một lúc , bởi lẽ nếu mở một lúc >= 3 google driver sẽ xảy ra tình trạng giật , đơ ở một số thiết bị cấu hình yếu . Còn hướng 2 phải áp dụng cho những văn bản >= 4001 kí tự , nếu áp dụng cho trường hợp <= 4000 kí tự sẽ không tối ưu được tốc độ
 
 - Phần tên file lưu chương trình sẽ đọc toàn bộ dữ liệu ở file download ổ C và scan có trùng tên file ở params trước khi tải hay không ? đồng thời check tên file lưu User gửi đi có kí tự đặc biệt không ? nếu không bị trùng tên file và tên file không có kí tự đặc biệt sẽ hợp lệ thì sau khi file được tải xuống ở file download ổ C sẽ đổi thành tên đã gửi đi ở params trong API
+- Vì website chỉ có thể chứa 2000 kí tự nên những trường hợp >= 2001 kí tự sẽ có >= 2 file được tải về , sau khi hoàn tất quá trình , các fileName sẽ được đánh dấu từ 1 .... n và gộp thành một file name duy nhất là tên file user đã đặt ở params khi gửi API đi
 
 - Phần giọng nói , đoạn mã dựa vào đó để chọn Male / Female Voice trên website
 
